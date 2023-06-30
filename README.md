@@ -39,7 +39,8 @@ Same as we connect  from ansible to web server
 
 
 
-We add webserver and ip of web server in inventory of ansible/vi etc/ansible/hosts
+We add webserver and ip of w![CI_CD Pipeline Basic](https://github.com/hemanth5544/ci-cd/assets/92920794/f3a465a7-6209-49f8-b493-8cc66effd29a)
+eb server in inventory of ansible/vi etc/ansible/hosts
 SSH CONNECTION DONE
 
 
