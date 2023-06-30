@@ -39,8 +39,8 @@ Same as we connect  from ansible to web server
 
 
 
-We add webserver and ip of w![CI_CD Pipeline Basic](https://github.com/hemanth5544/ci-cd/assets/92920794/f3a465a7-6209-49f8-b493-8cc66effd29a)
-eb server in inventory of ansible/vi etc/ansible/hosts
+We add webserver and ip of 
+Web server in inventory of ansible/vi etc/ansible/hosts
 SSH CONNECTION DONE
 
 
@@ -58,5 +58,7 @@ Then jenkinsscmspaste github url
 The add plugin PublishOverSSH in Jenkins to use the secure ssh connection
 	Add the servers which connected to ssh over Jenkins
 Jenkins and pvt ip	and configure the file  in the build steps with  over exc command[rsync -avh /var/lib/jenkins/workspace] --rsync -avh /var/lib/jenkins/workspace/demoproject/*.html root@172.31.76.126:/opt/index.html
+
+![CI_CD Pipeline Basic](https://github.com/hemanth5544/ci-cd/assets/92920794/f3a465a7-6209-49f8-b493-8cc66effd29a)
 
  
